@@ -27,4 +27,13 @@ flowchart LR
     blank --> cond{i < 4}
     cond -->|no| blank
     cond -->|yes| end2([end])
+    one -->|재귀|one
+    subgraph one["for i = 1; i < 30; i++"]
+        direction TB
+        subgraph two
+            direction RL
+            h1 --> h2
+        end
+        a1-->a2
+    end
 ```
