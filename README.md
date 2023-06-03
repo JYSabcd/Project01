@@ -26,7 +26,8 @@ flowchart LR
     start1([start]) --> blank((" "))
     blank --> cond{i < 4}
     cond -->|no| blank
-    cond -->|yes| end2([end])
+    cond -->|yes| end2(["`end`"]) 
+    %%"``"는 굵은 글씨%%
     one -->|재귀|one
     subgraph one["for i = 1; i < 30; i++"]
         direction TB
