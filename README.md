@@ -37,4 +37,5 @@ flowchart LR
         end
         a1-->a2
     end
+    %%하나의 flowchart에서 이렇게 많이 만드는 것은 안좋음 그래서 여러 개의 flowchart를 만들어야함%%
 ```
