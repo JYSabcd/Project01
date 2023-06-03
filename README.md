@@ -19,6 +19,7 @@ flowchart LR
     out --> rt([rt])
 
     start([start]) --> inp1[/입력/]
-    inp1 --> fun1[[calc]]
+    inp1 --> fun1[[calc]] 
+    %% 네모 겹친 것은 함수 호출 %%
     fun1 --> end1([end])
 ```
