@@ -22,4 +22,9 @@ flowchart LR
     inp1 --> fun1[[calc]] 
     %% 네모 겹친 것은 함수 호출 %%
     fun1 --> end1([end])
+
+    start1([start]) --> blank((" "))
+    blank --> cond{i < 4}
+    cond -->|no| blank
+    cond -->|yes| end2([end])
 ```
