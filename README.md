@@ -4,7 +4,7 @@
 ```mermaid
 flowchart TB
     A[지윤성]
-    B(히힣)
+    B("나야~")
     A ---> B
     B --test--> A
     A --> C{hello}
